@@ -10,7 +10,7 @@
 			const responseBlob = await response.blob();
 			const link = document.createElement('a');
 			link.href = window.URL.createObjectURL(responseBlob);
-			link.download = `your-file-name.pdf`;
+			link.download = `Leon-Schirmer-CV.pdf`;
 			link.click();
 			console.log(response);
 			isDownloadingCv = false;

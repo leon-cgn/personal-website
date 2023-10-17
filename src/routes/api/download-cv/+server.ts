@@ -1,12 +1,23 @@
+import chromium from '@sparticuz/chromium-min';
 import type { RequestHandler } from '@sveltejs/kit';
-import puppeteer from 'puppeteer';
+import puppeteer from 'puppeteer-core';
 
 export const GET: RequestHandler = async ({ url }) => {
 	const lang = String(url.searchParams.get('lang') ?? 'de');
-	console.log(url);
-	console.log(url.hostname);
 
-	const browser = await puppeteer.launch({ headless: true });
+	const getBrowser = async () => {
+		return puppeteer.launch({
+			args: [...chromium.args, '--hide-scrollbars', '--disable-web-security'],
+			defaultViewport: chromium.defaultViewport,
+			executablePath: await chromium.executablePath(
+				`https://github.com/Sparticuz/chromium/releases/download/v116.0.0/chromium-v116.0.0-pack.tar`
+			),
+			headless: chromium.headless,
+			ignoreHTTPSErrors: true
+		});
+	};
+
+	const browser = await getBrowser();
 	const page = await browser.newPage();
 	await page.goto('https://leonschirmer.dev', { waitUntil: 'networkidle0' });
 
