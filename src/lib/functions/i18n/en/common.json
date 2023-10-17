@@ -1,10 +1,67 @@
 {
 	"about": {
-		"label": "About me",
-		"text": "Libero quas veritatis nulla distinctio fuga nihil temporibus et. Quia dicta sapiente qui porro molestiae nobis incidunt voluptatem. Et voluptas sunt nihil. At perferendis voluptatem dolores nulla. Adipisci dolore non. Praesentium ipsa magnam ut quia explicabo voluptates.<br/><br/>Libero quas veritatis nulla distinctio fuga nihil temporibus et. Quia dicta sapiente qui porro molestiae nobis incidunt voluptatem. Et voluptas sunt nihil. At perferendis voluptatem dolores nulla. Adipisci dolore non. Praesentium ipsa magnam ut quia explicabo voluptates."
+		"label": "Hi",
+		"text": "Seit 2017 bin ich im Bereich der Softwareentwicklung tätig und habe mich insbesondere auf Technologien wie React, Next.js und NestJS spezialisiert. Ich arbeite eng mit meinen Kunden zusammen, um maßgeschneiderte Lösungen zu bieten, die sowohl funktional als auch intuitiv sind. Dabei setze ich auf einen klaren und verständlichen Ansatz, der sicherstellt, dass Anwendungen nicht unnötig komplex werden und den Nutzern echten Mehrwert bieten.<br/><br/>Mir liegt viel daran, auf Augenhöhe mit meinen Kunden zu kommunizieren, um ihre Visionen und Ziele zu verstehen. Dieser offene Dialog ermöglicht es mir, passgenaue und effiziente Lösungen zu entwickeln. Bei jedem Projekt, egal ob es sich um ein kleines MVP oder ein umfangreicheres Vorhaben handelt, ist mir Transparenz, Qualität und eine zielgerichtete Umsetzung wichtig."
 	},
 	"cta": {
-		"btn-download-cv": "Download CV",
-		"job": "Fullstack Software Engineer"
+		"btn-download-cv": "CV herunterladen",
+		"job": "Fullstack Software Entwickler"
+	},
+	"educations": {
+		"hbrs": {
+			"dateFromTo": "2015 - 2019",
+			"label": "Bachelor: Wirtschaftswissenschaften",
+			"university": "Hochschule Bonn-Rhein-Sieg"
+		},
+		"iw": {
+			"dateFromTo": "2020 - 2022",
+			"label": "Master: Behavioral Ethics, Economics and Psychology",
+			"university": "IW Akademie/ TH Köln"
+		},
+		"label": "Ausbildung"
+	},
+	"footer": {
+		"imprintPrivacy": "Impressum/ Datenschutz"
+	},
+	"jobs": {
+		"csb": {
+			"company": "CSB System AG",
+			"dateFromTo": "10/ 2023 - 10/ 2023",
+			"descriptionList": "<li>Einwöchige Coding Lehrveranstaltung für SchülerInnen</li><li>Einstieg in Webentwicklung mit HTML, CSS, JS und Svelte für 14-18 Jährige</li>",
+			"label": "Dozent: CodeWeek",
+			"location": "Geilenkirchen"
+		},
+		"ipc": {
+			"company": "Interzero Product Cycle",
+			"dateFromTo": "02/ 2022 - Heute",
+			"descriptionList": "<li>Planung und Umsetzung von mehreren Next.js Apps zur Unterstützung von Produktionsprozessen mittels Anbindungen zu u.a. Google Vision, Logistikdienstleister und MS Dynamics APIs</li><li>Planung und Umsetzung einer hochverfügbaren NestJS Queue App zum parsen von xml Daten aus einem Drittsystem und mit Verbindung zu MS Dynamics</li>",
+			"label": "Fullstack Entwickler/ Architekt",
+			"location": "Berlin/ Remote"
+		},
+		"isd": {
+			"company": "Interseroh Dienstleistungs GmbH",
+			"dateFromTo": "08/ 2018 - 06/ 2021",
+			"descriptionList": "<li>Frontend Entwicklung von Web-Anwendungen mit React</li><li>Aufbau von CI/ CD Workflows mit Gitlab Pipelines, Docker und Kubernetes</li>",
+			"label": "Frontend Entwickler",
+			"location": "Köln/ Remote"
+		},
+		"label": "Erfahrung",
+		"packiro": {
+			"company": "Packiro GmbH",
+			"dateFromTo": "06/ 2021 - 05/ 2023",
+			"descriptionList": "<li>Relaunch eines Webshops mit Next.js und Material UI, Integration von GraphQL und Rest Schnittstellen</li><li>Planung und Entwicklung eines internen Tools zur Kontrolle und Manipulation von realistischen 3D-Modellen</li>",
+			"label": "Frontend Entwickler",
+			"location": "Köln/ Remote"
+		},
+		"websites": {
+			"company": "Verschiedene Kunden",
+			"dateFromTo": "03/ 2018 - Heute",
+			"descriptionList": "<li>Design und Entwicklung von Wordpress und Wix Websites für lokale Unternehmen</li><li>SEA und SEO für Branchen im lokalen Markt</li>",
+			"label": "Webdesing- und Entwicklung",
+			"location": "Köln/ Remote"
+		}
+	},
+	"skills": {
+		"label": "Tech Skills"
 	}
 }
