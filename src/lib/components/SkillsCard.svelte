@@ -9,8 +9,10 @@
 		'Material UI',
 		'NestJS',
 		'BullMQ',
+		'Node.js',
 		'Flutter',
 		'Firebase',
+		'PostgreSQL',
 		'WordPress',
 		'Gitlab CI/ CD'
 	];
