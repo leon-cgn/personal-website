@@ -9,7 +9,8 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"format": "prettier --plugin-search-dir . --write .",
+		"generate-cv-pdfs": "PDF_LANG=de node generate-pdf-script.js && PDF_LANG=en node generate-pdf-script.js"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
@@ -37,6 +38,7 @@
 	"type": "module",
 	"dependencies": {
 		"@sparticuz/chromium-min": "^117.0.0",
+		"puppeteer": "^21.3.8",
 		"puppeteer-core": "^21.3.8",
 		"sveltekit-i18n": "^2.4.2"
 	}

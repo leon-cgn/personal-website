@@ -1,7 +1,7 @@
 {
 	"about": {
 		"label": "Hallo",
-		"text": "Seit 2017 bin ich im Bereich der Softwareentwicklung tätig und habe mich insbesondere auf Technologien wie React, Next.js und NestJS spezialisiert. Ich arbeite eng mit meinen Kunden zusammen, um maßgeschneiderte Lösungen zu bieten, die sowohl funktional als auch intuitiv sind. Dabei setze ich auf einen klaren und verständlichen Ansatz, der sicherstellt, dass Anwendungen nicht unnötig komplex werden und den Nutzern echten Mehrwert bieten.<br/><br/>Mir liegt viel daran, auf Augenhöhe mit meinen Kunden zu kommunizieren, um ihre Visionen und Ziele zu verstehen. Dieser offene Dialog ermöglicht es mir, passgenaue und effiziente Lösungen zu entwickeln. Bei jedem Projekt, egal ob es sich um ein kleines MVP oder ein umfangreicheres Vorhaben handelt, ist mir Transparenz, Qualität und eine zielgerichtete Umsetzung wichtig."
+		"text": "Ich bin Leon aus Köln und seit 2017 im Bereich der Softwareentwicklung tätig. Dabei habe ich mich insbesondere auf Technologien wie React, Next.js und NestJS spezialisiert um Projekte schnell und zuverlässig umzusetzen. Ich arbeite eng mit meinen Kunden zusammen, um maßgeschneiderte Lösungen zu bieten, die sowohl funktional als auch intuitiv sind. Dabei setze ich auf einen klaren und verständlichen Ansatz, der sicherstellt, dass Anwendungen nicht unnötig komplex werden und den Nutzern echten Mehrwert bieten.<br/><br/>Mir liegt viel daran, auf Augenhöhe mit meinen Kunden zu kommunizieren, um ihre Visionen und Ziele zu verstehen. Dieser offene Dialog ermöglicht es mir, passgenaue und effiziente Lösungen zu entwickeln. Bei jedem Projekt, egal ob es sich um ein kleines MVP oder ein umfangreicheres Vorhaben handelt, ist mir Transparenz, Qualität und eine zielgerichtete Umsetzung wichtig.<br/><br/>Ich freue mich darauf, dich und dein Projekt kennenzulernen!"
 	},
 	"cta": {
 		"btn-download-cv": "CV herunterladen",
@@ -23,6 +23,10 @@
 	"footer": {
 		"imprintPrivacy": "Impressum/ Datenschutz"
 	},
+	"imprintPrivacy": {
+		"buttonBack": "Zurück",
+		"pageTitle": "Impressum/ Datenschutz"
+	},
 	"jobs": {
 		"csb": {
 			"company": "CSB System AG",
@@ -33,8 +37,8 @@
 		},
 		"ipc": {
 			"company": "Interzero Product Cycle",
-			"dateFromTo": "02/ 2022 - Heute",
-			"descriptionList": "<li>Planung und Umsetzung von mehreren Next.js Apps zur Unterstützung von Produktionsprozessen mittels Anbindungen zu u.a. Google Vision, Logistikdienstleister und MS Dynamics APIs</li><li>Planung und Umsetzung einer hochverfügbaren NestJS Queue App zum parsen von xml Daten aus einem Drittsystem und mit Verbindung zu MS Dynamics</li>",
+			"dateFromTo": "01/ 2023 - Heute",
+			"descriptionList": "<li>Planung und Umsetzung von mehreren Next.js Apps zur Unterstützung von Produktionsprozessen mittels Anbindungen zu u.a. Google Vision-, Logistikdienstleister- und MS Dynamics APIs</li><li>Planung und Umsetzung einer hochverfügbaren NestJS Queue App zum parsen von xml Daten aus einem Drittsystem und mit Verbindung zu MS Dynamics</li>",
 			"label": "Fullstack Entwickler/ Architekt",
 			"location": "Berlin/ Remote"
 		},

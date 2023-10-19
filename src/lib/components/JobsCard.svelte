@@ -22,7 +22,7 @@
 		<h2 class="card-title">{$t('common.jobs.label')}</h2>
 		<div class="flex flex-wrap divide-y">
 			{#each jobs as job}
-				<div class="flex w-full flex-col gap-6 py-6 sm:flex-row">
+				<div class="flex w-full flex-col gap-4 py-6 sm:flex-row sm:gap-6">
 					<div class="avatar">
 						<div class="h-12 w-24 rounded-xl ring-2 ring-white">
 							<img src={logos[job]} alt="job-logo" />

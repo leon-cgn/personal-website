@@ -3,6 +3,8 @@
 	import bgImg from '$lib/assets/bg.jpeg';
 	import { t } from '$lib/functions/i18n/index';
 	let isDownloadingCv = false;
+
+	// TODO Finish pdf export with pdf styling with data-is-pdf and server static files de/ en
 	const exportToPdf = async () => {
 		isDownloadingCv = true;
 		try {
@@ -33,7 +35,37 @@
 		</div>
 		<h2 class="card-title">Leon Schirmer</h2>
 		<p>{$t('common.cta.job')}</p>
-		<div class="card-actions mt-4 sm:mt-6">
+		<div class="card-actions mt-2 justify-end sm:mt-auto">
+			<a
+				aria-label="Github"
+				target="_blank"
+				href="https://github.com/leon-cgn"
+				rel="noopener, noreferrer"
+				class="btn btn-square btn-ghost drawer-button normal-case"
+			>
+				<i class="bx bx-md bxl-github" />
+			</a>
+			<a
+				aria-label="LinkedIn"
+				target="_blank"
+				href="https://www.linkedin.com/in/leon-schirmer"
+				rel="noopener, noreferrer"
+				class="btn btn-square btn-ghost drawer-button normal-case"
+			>
+				<i class="bx bx-md bxl-linkedin-square" />
+			</a>
+			<a
+				aria-label="Mail"
+				target="_blank"
+				href="mailto:hallo@leonschirmer.dev"
+				rel="noopener, noreferrer"
+				class="btn btn-square btn-ghost drawer-button normal-case"
+			>
+				<i class="bx bx-md bx-envelope" />
+			</a>
+		</div>
+
+		<!-- <div class="card-actions mt-4 sm:mt-6">
 			<button on:click={exportToPdf} id="download-cv-button" class="btn btn-primary w-full">
 				{#if isDownloadingCv}
 					<span class="loading loading-spinner" />
@@ -55,6 +87,6 @@
 					</svg>
 				{/if}
 			</button>
-		</div>
+		</div> -->
 	</div>
 </section>
