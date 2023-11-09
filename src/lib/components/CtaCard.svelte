@@ -1,23 +1,23 @@
 <script lang="ts">
 	import avatarImg from '$lib/assets/avatar.jpeg';
 	import bgImg from '$lib/assets/bg.jpeg';
-	import { t } from '$lib/functions/i18n/index';
+	import cvDe from '$lib/assets/cv/Leon-Schirmer-CV-de.pdf';
+	import cvEn from '$lib/assets/cv/Leon-Schirmer-CV-en.pdf';
+	import { locale, t } from '$lib/functions/i18n/index';
 	let isDownloadingCv = false;
 
-	// TODO Finish pdf export with pdf styling with data-is-pdf and server static files de/ en
-	const exportToPdf = async () => {
+	const downloadCv = async () => {
 		isDownloadingCv = true;
 		try {
-			const response = await fetch('/api/download-cv');
+			const downloadUrl = $locale === 'de' ? cvDe : cvEn;
+			const response = await fetch(downloadUrl);
 			const responseBlob = await response.blob();
 			const link = document.createElement('a');
 			link.href = window.URL.createObjectURL(responseBlob);
-			link.download = `Leon-Schirmer-CV.pdf`;
+			link.download = `Leon-Schirmer-CV-${$locale}.pdf`;
 			link.click();
-			console.log(response);
 			isDownloadingCv = false;
 		} catch (error) {
-			console.log(error);
 			isDownloadingCv = false;
 		}
 	};
@@ -25,23 +25,25 @@
 
 <section class="card bg-base-100 shadow-md">
 	<figure>
-		<img src={bgImg} alt="Bridge" />
+		<img data-is-pdf="false" src={bgImg} alt="Bridge" class="pdf:hidden" />
 	</figure>
-	<div class="card-body">
-		<div class="avatar -mt-20 max-w-max p-1">
-			<div class="w-24 rounded-lg ring ring-white ring-offset-2 ring-offset-base-100">
-				<img src={avatarImg} />
+	<div data-is-pdf="false" class="card-body pdf:flex-row">
+		<div class="flex flex-col gap-1">
+			<div data-is-pdf="false" class="avatar -mt-20 max-w-max p-1 pdf:mt-0">
+				<div class="w-24 rounded-lg ring ring-white ring-offset-2 ring-offset-base-100">
+					<img src={avatarImg} alt="avatar" />
+				</div>
 			</div>
-		</div>
-		<h2 class="card-title">Leon Schirmer</h2>
-		<div class="flex flex-col gap-4 sm:gap-2">
+			<h2 class="card-title">Leon Schirmer</h2>
 			<p>{$t('common.cta.job')}</p>
+		</div>
+		<div data-is-pdf="false" class="mt-2 flex flex-col gap-4 pdf:ml-auto pdf:mt-auto sm:gap-2">
 			<a
 				aria-label="Mail"
 				target="_blank"
 				href="mailto:hallo@leonschirmer.dev"
 				rel="noopener, noreferrer"
-				class="mt-2 inline-flex w-fit hover:text-primary"
+				class="inline-flex w-fit hover:text-primary"
 			>
 				<i class="bx bx-sm bx-envelope mr-2" />hallo@leonschirmer.dev
 			</a>
@@ -73,9 +75,8 @@
 				<i class="bx bx-sm bxl-github mr-2" />https://github.com/leon-cgn
 			</a>
 		</div>
-
-		<!-- <div class="card-actions mt-4 sm:mt-6">
-			<button on:click={exportToPdf} id="download-cv-button" class="btn btn-primary w-full">
+		<div data-is-pdf="false" class="card-actions mt-4 pdf:hidden sm:mt-6">
+			<button on:click={downloadCv} id="download-cv-button" class="btn btn-primary w-full">
 				{#if isDownloadingCv}
 					<span class="loading loading-spinner" />
 				{:else}
@@ -96,6 +97,6 @@
 					</svg>
 				{/if}
 			</button>
-		</div> -->
+		</div>
 	</div>
 </section>

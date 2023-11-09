@@ -17,8 +17,8 @@
 	const jobs = ['ipc', 'csb', 'packiro', 'websites', 'isd'] as const;
 </script>
 
-<section class="card col-span-2 row-span-3 bg-base-100 shadow-md">
-	<div class="card-body">
+<section data-is-pdf="false" class="card col-span-2 row-span-3 bg-base-100 shadow-md pdf:mt-32">
+	<div data-is-pdf="false" class="card-body">
 		<h2 class="card-title">{$t('common.jobs.label')}</h2>
 		<div class="flex flex-wrap divide-y">
 			{#each jobs as job}
@@ -37,7 +37,7 @@
 							</span>
 							<span class="sm:ml-4">
 								<i class="bx bx-map" />
-								{$t(`common.jobs.${job}.location`)}
+								{@html $t(`common.jobs.${job}.location`)}
 							</span>
 							<span class="sm:ml-auto">
 								<i class="bx bx-calendar-week" />

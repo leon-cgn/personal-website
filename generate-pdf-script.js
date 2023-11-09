@@ -10,21 +10,19 @@ const browser = await puppeteer.launch({ headless: true });
 const page = await browser.newPage();
 await page.goto('http://127.0.0.1:5173', { waitUntil: 'networkidle0' });
 
-// Apply pdf styling
-const layoutContainerSelector = '#layout-container';
-const layoutContainer = await page.waitForSelector(layoutContainerSelector);
-await layoutContainer?.evaluate((el) => el.setAttribute('data-is-pdf', 'true'));
+// change data-is-pdf on all html tags to apply pdf styling
+await page.evaluate(() => {
+	const elements = document.querySelectorAll('*');
+	for (let element of elements) {
+		element.setAttribute('data-is-pdf', 'true');
+	}
+});
 
 // Change page lang to en
 if (lang === 'en') {
 	const langButtonEnSelector = '#button-lang-en';
 	await page.click(langButtonEnSelector);
 }
-
-// Remove download cv button
-const downloadCvButtonSelector = '#download-cv-button';
-const downloadCvButton = await page.waitForSelector(downloadCvButtonSelector);
-await downloadCvButton?.evaluate((el) => el.remove());
 
 // Remove header
 const headerSelector = '#header-lang-picker';
@@ -37,7 +35,6 @@ const footer = await page.waitForSelector(footerSelector);
 await footer?.evaluate((el) => el.remove());
 
 // Fix waving emoji
-// TODO This does not work yet
 const waveEmojiSelector = '#waving-emoji';
 const waveEmoji = await page.waitForSelector(waveEmojiSelector);
 await waveEmoji?.evaluate((el) => el.replaceWith('👋'));

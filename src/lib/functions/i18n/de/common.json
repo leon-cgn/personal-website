@@ -10,7 +10,7 @@
 	"educations": {
 		"hbrs": {
 			"dateFromTo": "2015 - 2019",
-			"label": "Bachelor: Wirtschafts-wissenschaften",
+			"label": "Bachelor: Wirtschafts<wbr />wissenschaften",
 			"university": "Hochschule Bonn-Rhein-Sieg"
 		},
 		"iw": {
@@ -33,7 +33,7 @@
 			"dateFromTo": "10/ 2023 - 10/ 2023",
 			"descriptionList": "<li>Einwöchige Coding Lehrveranstaltung für SchülerInnen</li><li>Einstieg in Webentwicklung mit HTML, CSS, JS und Svelte für 14-18 Jährige</li>",
 			"label": "Dozent: CodeWeek",
-			"location": "Geilenkirchen"
+			"location": "Geilen<wbr />kirchen"
 		},
 		"ipc": {
 			"company": "Interzero Product Cycle",

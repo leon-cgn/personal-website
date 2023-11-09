@@ -1,6 +1,13 @@
 {
 	"jsonRecursiveSort": true,
-	"overrides": [{ "files": "*.svelte", "options": { "parser": "svelte" } }],
+	"overrides": [
+		{
+			"files": "*.svelte",
+			"options": {
+				"parser": "svelte"
+			}
+		}
+	],
 	"pluginSearchDirs": ["."],
 	"plugins": ["prettier-plugin-svelte", "prettier-plugin-sort-json"],
 	"printWidth": 100,

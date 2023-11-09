@@ -5,9 +5,9 @@
 </script>
 
 <div
-	id="layout-container"
 	data-is-pdf="false"
-	class="container mx-auto max-w-6xl [word-break:break-word] data-[is-pdf=true]:opacity-50"
+	id="layout-container"
+	class="container mx-auto max-w-6xl pdf:max-w-xl pdf:pt-8"
 >
 	<Header />
 	<slot />

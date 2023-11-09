@@ -21,7 +21,7 @@
 						</div>
 					</div>
 					<div class="flex w-full flex-col">
-						<h3>{$t(`common.educations.${education}.label`)}</h3>
+						<h3>{@html $t(`common.educations.${education}.label`)}</h3>
 						<div class="flex flex-col opacity-50">
 							<span>
 								<i class="bx bx-briefcase" />
