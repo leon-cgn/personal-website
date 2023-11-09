@@ -26,6 +26,7 @@
 
 			<h2 class="mt-2 font-bold">Kontakt</h2>
 			<p>E-Mail: hallo@leonschirmer.dev</p>
+			<p>Telefon: 0151-50527650</p>
 
 			<h2 class="mt-2 font-bold">Umsatzsteuer-ID</h2>
 			<p>
@@ -174,6 +175,8 @@
 			</p>
 
 			<p>E-Mail: hallo@leonschirmer.dev</p>
+			<p>Telefon: 0151-50527650</p>
+
 			<p>
 				Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person, die allein oder
 				gemeinsam mit anderen &uuml;ber die Zwecke und Mittel der Verarbeitung von personenbezogenen
@@ -367,6 +370,7 @@
 
 			<h2 class="mt-2 font-bold">Contact</h2>
 			<p>Email: hallo@leonschirmer.dev</p>
+			<p>Phone: 0049151-50527650</p>
 
 			<h2 class="mt-2 font-bold">VAT ID</h2>
 			<p>
@@ -499,6 +503,8 @@
 			</p>
 
 			<p>Email: hallo@leonschirmer.dev</p>
+			<p>Phone: 0049151-50527650</p>
+
 			<p>
 				The responsible body is the natural or legal person who, alone or jointly with others,
 				decides on the purposes and means of processing personal data (e.g., names, e-mail

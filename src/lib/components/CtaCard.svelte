@@ -23,9 +23,9 @@
 	};
 </script>
 
-<section class="card bg-base-100 shadow-xl">
+<section class="card bg-base-100 shadow-md">
 	<figure>
-		<img src={bgImg} alt="Shoes" />
+		<img src={bgImg} alt="Bridge" />
 	</figure>
 	<div class="card-body">
 		<div class="avatar -mt-20 max-w-max p-1">
@@ -34,34 +34,43 @@
 			</div>
 		</div>
 		<h2 class="card-title">Leon Schirmer</h2>
-		<p>{$t('common.cta.job')}</p>
-		<div class="card-actions mt-2 justify-end sm:mt-auto">
+		<div class="flex flex-col gap-4 sm:gap-2">
+			<p>{$t('common.cta.job')}</p>
 			<a
-				aria-label="Github"
+				aria-label="Mail"
 				target="_blank"
-				href="https://github.com/leon-cgn"
+				href="mailto:hallo@leonschirmer.dev"
 				rel="noopener, noreferrer"
-				class="btn btn-square btn-ghost drawer-button normal-case"
+				class="mt-2 inline-flex w-fit hover:text-primary"
 			>
-				<i class="bx bx-md bxl-github" />
+				<i class="bx bx-sm bx-envelope mr-2" />hallo@leonschirmer.dev
+			</a>
+			<a
+				aria-label="Phone"
+				target="_blank"
+				href="tel:004915150527650"
+				rel="noopener, noreferrer"
+				class="inline-flex w-fit hover:text-primary"
+			>
+				<i class="bx bx-sm bx-phone mr-2" />0151-50527650
 			</a>
 			<a
 				aria-label="LinkedIn"
 				target="_blank"
 				href="https://www.linkedin.com/in/leon-schirmer"
 				rel="noopener, noreferrer"
-				class="btn btn-square btn-ghost drawer-button normal-case"
+				class="inline-flex w-fit hover:text-primary"
 			>
-				<i class="bx bx-md bxl-linkedin-square" />
+				<i class="bx bx-sm bxl-linkedin-square mr-2" />https://www.linkedin.com/in/leon-schirmer
 			</a>
 			<a
-				aria-label="Mail"
+				aria-label="Github"
 				target="_blank"
-				href="mailto:hallo@leonschirmer.dev"
+				href="https://github.com/leon-cgn"
 				rel="noopener, noreferrer"
-				class="btn btn-square btn-ghost drawer-button normal-case"
+				class="inline-flex w-fit hover:text-primary"
 			>
-				<i class="bx bx-md bx-envelope" />
+				<i class="bx bx-sm bxl-github mr-2" />https://github.com/leon-cgn
 			</a>
 		</div>
 

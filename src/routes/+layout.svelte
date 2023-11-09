@@ -7,7 +7,7 @@
 <div
 	id="layout-container"
 	data-is-pdf="false"
-	class="container mx-auto max-w-6xl data-[is-pdf=true]:opacity-50"
+	class="container mx-auto max-w-6xl [word-break:break-word] data-[is-pdf=true]:opacity-50"
 >
 	<Header />
 	<slot />

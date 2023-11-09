@@ -7,7 +7,7 @@
 	};
 </script>
 
-<header id="header-lang-picker" class="navbar bg-base-100">
+<header id="header-lang-picker" class="navbar">
 	<div class="ml-auto">
 		{#each $locales as locale}
 			<button

@@ -9,7 +9,7 @@
 	const educations = ['iw', 'hbrs'] as const;
 </script>
 
-<section class="card col-span-1 bg-base-100 shadow-xl">
+<section class="card col-span-1 bg-base-100 shadow-md">
 	<div class="card-body">
 		<h2 class="card-title">{$t('common.educations.label')}</h2>
 		<div class="flex flex-wrap divide-y">
