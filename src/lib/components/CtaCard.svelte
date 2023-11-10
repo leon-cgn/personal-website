@@ -4,6 +4,7 @@
 	import cvDe from '$lib/assets/cv/Leon-Schirmer-CV-de.pdf';
 	import cvEn from '$lib/assets/cv/Leon-Schirmer-CV-en.pdf';
 	import { locale, t } from '$lib/functions/i18n/index';
+
 	let isDownloadingCv = false;
 
 	const downloadCv = async () => {
@@ -41,38 +42,38 @@
 			<a
 				aria-label="Mail"
 				target="_blank"
-				href="mailto:hallo@leonschirmer.dev"
+				href={`mailto:${$t('common.cta.mail')}`}
 				rel="noopener, noreferrer"
 				class="inline-flex w-fit hover:text-primary"
 			>
-				<i class="bx bx-sm bx-envelope mr-2" />hallo@leonschirmer.dev
+				<i class="bx bx-sm bx-envelope mr-2" />{$t('common.cta.mail')}
 			</a>
 			<a
 				aria-label="Phone"
 				target="_blank"
-				href="tel:004915150527650"
+				href={`tel:${$t('common.cta.phoneNoFormat')}`}
 				rel="noopener, noreferrer"
 				class="inline-flex w-fit hover:text-primary"
 			>
-				<i class="bx bx-sm bx-phone mr-2" />0151-50527650
+				<i class="bx bx-sm bx-phone mr-2" />{$t('common.cta.phone')}
 			</a>
 			<a
 				aria-label="LinkedIn"
 				target="_blank"
-				href="https://www.linkedin.com/in/leon-schirmer"
+				href={$t('common.cta.linkedIn')}
 				rel="noopener, noreferrer"
 				class="inline-flex w-fit hover:text-primary"
 			>
-				<i class="bx bx-sm bxl-linkedin-square mr-2" />https://www.linkedin.com/in/leon-schirmer
+				<i class="bx bx-sm bxl-linkedin-square mr-2" />{$t('common.cta.linkedIn')}
 			</a>
 			<a
 				aria-label="Github"
 				target="_blank"
-				href="https://github.com/leon-cgn"
+				href={$t('common.cta.github')}
 				rel="noopener, noreferrer"
 				class="inline-flex w-fit hover:text-primary"
 			>
-				<i class="bx bx-sm bxl-github mr-2" />https://github.com/leon-cgn
+				<i class="bx bx-sm bxl-github mr-2" />{$t('common.cta.github')}
 			</a>
 		</div>
 		<div data-is-pdf="false" class="card-actions mt-4 pdf:hidden sm:mt-6">

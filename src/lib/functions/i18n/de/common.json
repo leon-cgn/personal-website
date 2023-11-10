@@ -5,7 +5,12 @@
 	},
 	"cta": {
 		"btn-download-cv": "CV herunterladen",
-		"job": "Fullstack Software Entwickler"
+		"github": "https://github.com/leon-cgn",
+		"job": "Fullstack Software Entwickler",
+		"linkedIn": "https://www.linkedin.com/in/leon-schirmer",
+		"mail": "hallo@leonschirmer.dev",
+		"phone": "0151-50527650",
+		"phoneNoFormat": "004915150527650"
 	},
 	"educations": {
 		"hbrs": {

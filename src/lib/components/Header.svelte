@@ -7,7 +7,7 @@
 	};
 </script>
 
-<header id="header-lang-picker" class="navbar">
+<header data-is-pdf="false" id="header-lang-picker" class="navbar pdf:hidden">
 	<div class="ml-auto">
 		{#each $locales as locale}
 			<button

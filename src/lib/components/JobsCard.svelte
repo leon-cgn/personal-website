@@ -13,12 +13,11 @@
 		isd: isdIpcLogo
 	};
 
-	// TODO Create obj here by iteration over jobs[] and get strings/ array of strings from t()
 	const jobs = ['ipc', 'csb', 'packiro', 'websites', 'isd'] as const;
 </script>
 
-<section data-is-pdf="false" class="card col-span-2 row-span-3 bg-base-100 shadow-md pdf:mt-32">
-	<div data-is-pdf="false" class="card-body">
+<section data-is-pdf="false" class="card col-span-2 row-span-3 bg-base-100 shadow-md pdf:mt-16">
+	<div class="card-body">
 		<h2 class="card-title">{$t('common.jobs.label')}</h2>
 		<div class="flex flex-wrap divide-y">
 			{#each jobs as job}

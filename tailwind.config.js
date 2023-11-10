@@ -10,7 +10,7 @@ export default {
 		require('@tailwindcss/typography'),
 		require('daisyui'),
 		plugin(({ addVariant }) => {
-			addVariant('pdf', '&[data-is-pdf="true"]');
+			addVariant('pdf', '&[data-is-pdf="true"]'); //CV: Flip to false here for local print view
 		})
 	],
 	daisyui: {
