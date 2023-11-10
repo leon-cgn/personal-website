@@ -18,7 +18,10 @@
 	];
 </script>
 
-<section class="card col-span-1 h-fit bg-base-100 shadow-md">
+<section
+	data-is-pdf="false"
+	class="card col-span-1 h-fit bg-base-100 shadow-md pdf:card-bordered pdf:shadow-none"
+>
 	<div class="card-body">
 		<h2 class="card-title">{$t('common.skills.label')}</h2>
 		<div class="flex flex-wrap gap-2">
