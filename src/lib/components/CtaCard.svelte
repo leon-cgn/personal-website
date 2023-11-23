@@ -24,7 +24,7 @@
 	};
 </script>
 
-<section data-is-pdf="false" class="card bg-base-100 shadow-md pdf:card-bordered pdf:shadow-none">
+<section data-is-pdf="false" class="card bg-base-100 shadow-md pdf:shadow-none">
 	<figure>
 		<img data-is-pdf="false" src={bgImg} alt="Bridge" class="pdf:hidden" />
 	</figure>
