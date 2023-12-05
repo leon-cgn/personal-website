@@ -43,7 +43,7 @@
 		"ipc": {
 			"company": "Interzero Product Cycle",
 			"dateFromTo": "01/ 2023 - Heute",
-			"descriptionList": "<li>Planung und Umsetzung von mehreren Next.js Apps zur Unterstützung von Produktionsprozessen mittels Anbindungen zu u.a. Google Vision-, Logistikdienstleister- und MS Dynamics APIs</li><li>Planung und Umsetzung einer hochverfügbaren NestJS Queue App zum parsen von xml Daten aus einem Drittsystem und mit Verbindung zu MS Dynamics</li>",
+			"descriptionList": "<li>Planung und Umsetzung von mehreren React (Next.js) Apps zur Unterstützung von Produktionsprozessen mittels Anbindungen zu u.a. Google Vision-, Logistikdienstleister- und MS Dynamics APIs</li><li>Planung und Umsetzung einer hochverfügbaren NestJS Queue App zum parsen von xml Daten aus einem Drittsystem und mit Verbindung zu MS Dynamics</li>",
 			"label": "Fullstack Entwickler/ Architekt",
 			"location": "Berlin/ Remote"
 		},
@@ -58,7 +58,7 @@
 		"packiro": {
 			"company": "Packiro GmbH",
 			"dateFromTo": "06/ 2021 - 05/ 2023",
-			"descriptionList": "<li>Relaunch eines Webshops mit Next.js und Material UI, Integration von GraphQL und Rest Schnittstellen</li><li>Planung und Entwicklung eines internen Tools zur Kontrolle und Manipulation von realistischen 3D-Modellen</li>",
+			"descriptionList": "<li>Relaunch eines Webshops mit React (Next.js) und Material UI, Integration von GraphQL und Rest Schnittstellen</li><li>Planung und Entwicklung eines internen Tools zur Kontrolle und Manipulation von realistischen 3D-Modellen</li>",
 			"label": "Frontend Entwickler",
 			"location": "Köln/ Remote"
 		},
