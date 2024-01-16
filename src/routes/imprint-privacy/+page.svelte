@@ -135,9 +135,9 @@
 			</p>
 			<p>Wir setzen folgende(n) Hoster ein:</p>
 			<p>
-				Vercel Inc.<br />
-				340 S Lemon Ave #4133<br />
-				Walnut, CA 91789<br />
+				Netlify Inc.<br />
+				512 2nd Street, Suite 200<br />
+				San Francisco, CA 94107<br />
 				USA
 			</p>
 			<p>Auftragsverarbeitung</p>
@@ -465,9 +465,9 @@
 			</p>
 			<p>We use the following host:</p>
 			<p>
-				Vercel Inc.<br />
-				340 S Lemon Ave #4133<br />
-				Walnut, CA 91789<br />
+				Netlify Inc.<br />
+				512 2nd Street, Suite 200<br />
+				San Francisco, CA 94107<br />
 				USA
 			</p>
 			<p>Order Processing</p>

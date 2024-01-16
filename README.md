@@ -1,2 +1,3 @@
 # personal-website
-Code for leonschirmer.dev hosted on vercel
+
+Code for leonschirmer.dev hosted on netlify
