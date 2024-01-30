@@ -8,13 +8,19 @@
 		'TailwindCSS',
 		'Material UI',
 		'NestJS',
+		'Supabase',
+		'GraphQL',
+		'ViteJS,',
+		'React-query,',
 		'BullMQ',
 		'Node.js',
 		'Flutter',
 		'Firebase',
 		'PostgreSQL',
 		'WordPress',
-		'Gitlab CI/ CD'
+		'Gitlab CI/ CD',
+		'SonarCloud',
+		'DigitalOcean'
 	];
 </script>
 

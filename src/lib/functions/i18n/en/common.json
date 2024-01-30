@@ -40,17 +40,24 @@
 			"label": "Instructor: CodeWeek",
 			"location": "Geilen<wbr />kirchen"
 		},
+		"egpr": {
+			"company": "Easy German Pension Refund",
+			"dateFromTo": "06/ 2023 - Present",
+			"descriptionList": "<li>Conception and implementation of a React app (ViteJS) for customer data collection, including user management and internationalization</li><li>Development of interfaces with TailwindCSS, integration of APIs using react-router</li><li>Planning and provisioning of a Supabase instance as a backend for databases, S3 storage and TypeScript Edge Functions</li><li>Configuration of CI/CD pipelines with GitHub Actions and Netlify</li>",
+			"label": "Fullstack Developer/ Architect",
+			"location": "Cologne/ Remote"
+		},
 		"ipc": {
 			"company": "Interzero Product Cycle",
 			"dateFromTo": "01/ 2023 - Present",
-			"descriptionList": "<li>Planning and implementation of several React (Next.js) apps to support production processes using integrations with, among others, Google Vision, logistics provider, and MS Dynamics APIs</li><li>Planning and development of a highly available NestJS Queue app for parsing XML data from a third-party system and connecting to MS Dynamics</li>",
+			"descriptionList": "<li>Planning and agile implementation of several TypeScript React (Next.js) apps to support production processes using integrations with, among others, Google Vision, logistics provider, and MS Dynamics APIs</li><li>Planning and development of a highly available NestJS Queue app for parsing XML data from a third-party system and connecting to MS Dynamics</li><li>Design and development of interfaces using Balsamiq wireframing and TailwindCSS</li><li>Setup of CI/ CD workflows with Gitlab Pipelines, SonarCloud and DigitalOcean</li>",
 			"label": "Fullstack Developer/ Architect",
 			"location": "Berlin/ Remote"
 		},
 		"isd": {
 			"company": "Interseroh Dienstleistungs GmbH",
 			"dateFromTo": "08/ 2018 - 06/ 2021",
-			"descriptionList": "<li>Frontend development of web applications with React</li><li>Setup of CI/ CD workflows with Gitlab Pipelines, Docker, and Kubernetes</li>",
+			"descriptionList": "<li>Frontend development of web applications with React</li><li>Setup of CI/ CD workflows with Gitlab Pipelines, Docker, and Kubernetes</li><li>Training and active role in agile teamwork according to Scrum</li>",
 			"label": "Frontend Developer",
 			"location": "Cologne/ Remote"
 		},
@@ -58,7 +65,7 @@
 		"packiro": {
 			"company": "Packiro GmbH",
 			"dateFromTo": "06/ 2021 - 05/ 2023",
-			"descriptionList": "<li>Relaunch of a webshop with React (Next.js) and Material UI, integration of GraphQL and Rest interfaces</li><li>Planning and development of an internal tool for controlling and manipulating realistic 3D models</li>",
+			"descriptionList": "<li>Relaunch of a webshop with React (Next.js) and Material UI, provision and integration of GraphQL and REST interfaces using e.g. react-query</li><li>Planning and agile development (Scrum) of an internal tool for controlling and manipulating realistic 3D models using React, TailwindCSS, GraphQL and ViteJS</li>",
 			"label": "Frontend Developer",
 			"location": "Cologne/ Remote"
 		},

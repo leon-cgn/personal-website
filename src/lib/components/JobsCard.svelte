@@ -1,5 +1,6 @@
 <script lang="ts">
 	import csbLogo from '$lib/assets/project-logos/csb.jpg';
+	import egprLogo from '$lib/assets/project-logos/egpr.png';
 	import isdIpcLogo from '$lib/assets/project-logos/isd.png';
 	import packiroLogo from '$lib/assets/project-logos/packiro.png';
 	import wpLogo from '$lib/assets/project-logos/wp.png';
@@ -10,10 +11,11 @@
 		csb: csbLogo,
 		packiro: packiroLogo,
 		websites: wpLogo,
-		isd: isdIpcLogo
+		isd: isdIpcLogo,
+		egpr: egprLogo
 	};
 
-	const jobs = ['ipc', 'csb', 'packiro', 'websites', 'isd'] as const;
+	const jobs = ['egpr', 'ipc', 'csb', 'packiro', 'websites', 'isd'] as const;
 </script>
 
 <section
